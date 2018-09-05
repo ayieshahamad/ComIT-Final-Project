@@ -83,6 +83,10 @@
             <contextReloadable>true</contextReloadable>
           </configuration>
         </plugin>
+        <plugin>
+          <artifactId>maven-war-plugin</artifactId>
+          <version>3.2.0</version>
+        </plugin>
         <!-- above code is from tutorial -->
         <!--
         <plugin>
@@ -104,7 +108,7 @@
           <version>2.20.1</version>
         </plugin>
         <plugin>
-          <artifactId>maven-war-plugin</artifactId>
+          <artifactId>maven-war-plugin</artifactId> added
           <version>3.2.0</version>
         </plugin>
         <plugin>
